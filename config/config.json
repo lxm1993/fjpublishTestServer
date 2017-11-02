@@ -1,0 +1,7 @@
+{
+  "port": 3002,
+  "encoding": "utf-8",
+  "log_id": "lxmwebsite",
+  "log_name": "lxmwebsite_node.log",
+  "log_level": "info"
+}
