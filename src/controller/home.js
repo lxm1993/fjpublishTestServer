@@ -1,7 +1,7 @@
 /**
  * Created by liuxiaomin on 2017/7/20.
  */
-const version = require('../../config/version.json');
+const version = require('../../public/version.json');
 exports.getControl = async function (ctx, next) {
     try{
         await ctx.render('home/index',{
