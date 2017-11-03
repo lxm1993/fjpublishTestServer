@@ -4,7 +4,7 @@
 let fs = require('fs');
 let path = require('path');
 let config =  {
-    port: 3002,
+    port: 3009,
     encoding: 'utf-8',
     log_id: "lxmwebsite",
     log_name: "lxmwebsite_node.log",

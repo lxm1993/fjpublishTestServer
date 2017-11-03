@@ -4,9 +4,9 @@
 const  Home = require("../controller/home");
 
 module.exports = function (router) {
-    router.get(/^\/lxmwebsite(\/|$)/,Home.getControl);
+    router.get('/fuwu/lwtwebsite',Home.getControl);
+    router.get(/^\/fuwu\/lwtwebsite(\/|$)/, Home.getControl);
     // router.get('/api/home/list',Home.getTest);
-    router.get('/api/articles/typelist',Home.getArticleList);
 
 
 };
